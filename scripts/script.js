@@ -1,3 +1,12 @@
-console.log("Hello world")
+console.log("hello world!")
 
-document.write("Hello World 2")
+let btn = document.querySelector('button');
+
+const file = new File(["doc"], "doc.txt", {
+	type: "text/plain",
+});
+
+btn.onclick = () => {
+	
+	alert("button = clicked");
+}
